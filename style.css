@@ -1,77 +1,87 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif,"poppins";
+    font-family: sans-serif, "poppins";
 }
-.header{
+
+.header {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/banner.png);
     background-size: cover;
     background-position: center;
 
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 7px;
 }
-.logo{
+
+.logo {
     width: 140px;
     cursor: pointer;
 }
-nav li{
+
+nav li {
     list-style: none;
     display: inline-block;
     margin: 10px 30px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
 }
-.register-btn{
-    background:#fff;
-    color:#000;
+
+.register-btn {
+    background: #fff;
+    color: #000;
     padding: 8px 20px;
     border-radius: 20px;
     text-decoration: none;
     font-size: 14px;
 
 }
-.container{
+
+.container {
     padding: 0px 7%;
 }
-.container h1{
+
+.container h1 {
     font-size: 4vw;
     font-weight: 500;
-    color:#fff;
+    color: #fff;
     text-align: center;
     padding-top: 22%;
 }
 
-.search-bar{
+.search-bar {
     background: #fff;
     width: 70%;
     margin: 30px auto;
     padding: 6px 30px 6px 30px;
     border-radius: 25px;
 }
-.search-bar form{
+
+.search-bar form {
     display: flex;
     align-items: center;
     flex-wrap: flex;
     overflow: hidden;
 }
-.search-bar form input{
+
+.search-bar form input {
     display: block;
     border: none;
     outline: none;
     background: transparent;
 }
-.search-bar form button{
+
+.search-bar form button {
     background-color: #ff5361;
     width: 55px;
     height: 55px;
@@ -81,124 +91,137 @@ nav li a{
     cursor: pointer;
 
 }
-.search-bar form button img{
+
+.search-bar form button img {
     width: 15px;
     margin-top: 7px;
 }
-.location-input{
+
+.location-input {
     flex: 1;
 }
-.search-bar form label{
+
+.search-bar form label {
     font-weight: 600;
 }
 
 
 /* .........exclusive.......... */
 
-.subtitle{
+.subtitle {
     margin: 50px 0 20px 0;
-    font-size:2.2vw ;
+    font-size: 2.2vw;
     font-weight: 500;
-    color:#333
+    color: #333
 }
-.exclusive{
+
+.exclusive {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-    grid-gap:30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
 }
-.exclusive div img{
+
+.exclusive div img {
     width: 100%;
     border-radius: 10px;
 }
 
-.exclusive div{
+.exclusive div {
     position: relative;
 }
-.exclusive div span{
+
+.exclusive div span {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
 }
 
-.tranding{
-     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-    grid-gap:30px;
+.tranding {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
     margin-bottom: 30px;
 }
-.tranding div img{
+
+.tranding div img {
     width: 100%;
     border-radius: 10px;
 }
 
-.tranding h3{
+.tranding h3 {
     font-weight: 600;
     margin-top: 20px;
 }
 
 /* .....call to action ...... */
-.cta{
-    margin:80px 0;
-    background-image: linear-gradient(to right,#3f2321,transparent),url(images/banner-2.png);
+.cta {
+    margin: 80px 0;
+    background-image: linear-gradient(to right, #3f2321, transparent), url(images/banner-2.png);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
     padding: 5%;
-    color:#fff;
+    color: #fff;
 }
-.cta h3{
+
+.cta h3 {
     font-size: 4vw;
     line-height: 5.3vw;
     font-weight: 500px;
 }
-.cta p{
+
+.cta p {
     font-size: 18px;
     margin: 10px 0;
 }
-.cta-btn{
-background: #ff5361;
-color: #fff;
-text-decoration: none;
-padding: 12px 30px;
-border-radius: 30px;
-display: inline-block;
+
+.cta-btn {
+    background: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    display: inline-block;
 }
 
 
 /* stories...... */
 
-.stories{
-     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-    grid-gap:30px;
+.stories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
     margin-bottom: 30px;
 }
-.stories div img{
+
+.stories div img {
     width: 100%;
     border-radius: 10px;
 }
-.stories div{
+
+.stories div {
     position: relative;
     text-align: center;
 }
-.stories div p{
+
+.stories div p {
     width: 80%;
     position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: #fff;
     font-weight: 900;
     font-size: 20px;
 }
 
-.start-btn{
+.start-btn {
     text-decoration: none;
     background: #ff5361;
-    color:#fff;
+    color: #fff;
     width: 80%;
     max-width: 350px;
     display: block;
@@ -210,13 +233,14 @@ display: inline-block;
 }
 
 /* about-msg ............*/
-.about-msg{
+.about-msg {
     text-align: center;
     margin: 80px 0;
-    color:#333;
+    color: #333;
     font-size: 17px;
 }
-.about-msg h2{
+
+.about-msg h2 {
     font-size: 28px;
     margin-bottom: 30px;
     font-weight: 500;
@@ -224,31 +248,35 @@ display: inline-block;
 
 
 /* ........footer....... */
-.footer{
+.footer {
     margin: 80px 0 10px;
     text-align: center;
 }
-.footer{
+
+.footer {
     text-decoration: none;
-    color:#999;
+    color: #999;
     font-size: 22px;
-    margin:0 10px;
+    margin: 0 10px;
 }
-.footer hr{
+
+.footer hr {
     background-color: #999;
     height: 1px;
     width: 100%;
     border: 0%;
     margin: 20px 0;
 }
-.footer p{
+
+.footer p {
     padding-bottom: 15px;
 }
 
-.active{
+.active {
     position: relative;
 }
-.active::after{
+
+.active::after {
     content: "";
     background: #fff;
     width: 25px;
@@ -258,4 +286,116 @@ display: inline-block;
     transform: translate(-50%);
     bottom: -12px;
     border-radius: 2px;
+}
+
+nav .fa-bars {
+    display: none;
+}
+
+/* FOR SMALL SCREEN .............. */
+
+@media only screen and (max-width:700px) {
+    .logo {
+        position: fixed;
+        top: 4px;
+        left: 7px;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        z-index: 100%;
+        display: inline-block;
+        width: 100%;
+        padding: 90px 7% 0;
+        background: #000;
+        text-align: right;
+        max-height: 100px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav .nav-links li {
+        margin: 10px 0;
+        display: block;
+    }
+
+    .register-btn {
+        margin: 15px 0 30px;
+        display: inline-block;
+
+    }
+
+    nav .fa-bars {
+        display: block;
+        position: fixed;
+        top: 4%;
+        right: 7%;
+        color: #fff;
+        font-size: 28px;
+    }
+
+    .active::after {
+        
+        left: -40px;
+        transform: translate(0,50%);
+        bottom: 50%;
+    }
+    .hidemenu{
+        max-height: 300px;
+
+    }
+
+    .header h1{
+        padding-top: 200px;
+        font-size: 5vh;
+    }
+    .search-bar{
+        width: 90%;
+        margin:30px auto;
+        padding: 20px 10px 30px;
+        border-radius: 5px;
+    }
+    .search-bar form{
+        display: block;
+    }
+    .search-bar form input{
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+
+    }
+    .search-bar form button{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%,50%);
+    }
+    .subtitle{
+        font-size: 6vh;
+    }
+    .cta{
+        padding: 15% 5%;
+    }
+    .cta h3{
+        font-size: 7vh;
+        line-height: 8vh;
+    }
+    .cta p{
+        font-size: 14px;
+    }
+    .cta-btn{
+        padding: 6px 15px;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .stories p{
+        font-size:22px;
+    }
+    .about-msg{
+        font-size:15px;
+    }
 }
