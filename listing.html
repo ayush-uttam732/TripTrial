@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav id="navBar" class="navbar-white">
+        <img src="images/logo-red.png" class="logo" alt="logo">
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Popular Places </a></li>
+            <li><a href="listing.html">Travel Outside </a></li>
+            <li><a href="#">Online Packages </a></li>
+        </ul>
+        <a href="#" class="register-btn">Register Now</a>
+        <i class="fa-solid fa-bars" onclick="Togglebtn()"></i>
+    </nav>
+
+
+    <div class="container">
+
+        <div class="list-container">
+            <div class="left-col">
+                <p>200+ Options</p>
+                <h1>Recommended Places In San Francisco</h1>
+                <div class="house">
+                    <div class="house-img">
+                        <img src="images/image-s1.png" alt="">
+                    </div>
+                    <div class="house-info">
+                        <p>Private villa in san Fancisco</p>
+                        <h3>Deluxe queen with Street View</h3>
+                        <p>Bedroom /1 Bathroom /Wifi /Kitchen</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a href="https://facebook.com/"> <i class="fab fa-facebook"></i> </a>
+            <a href="https://youtube.com"> <i class="fab fa-youtube"></i> </a>
+            <a href="https://twitter.com"> <i class="fab fa-twitter"></i> </a>
+            <a href="https://linkedin.com"> <i class="fab fa-linkedin"></i> </a>
+            <a href="https://instagram.com"> <i class="fab fa-instagram"></i> </a>
+
+            <hr>
+            <p>Copyright 2025, TripTrail</p>
+        </div>
+    </div>
+
+
+    <script>
+        let navBar = document.getElementById("navBar");
+        function Togglebtn() {
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
+
+</body>
+
+</html>
