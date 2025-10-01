@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav id="navBar" class="navbar-white">
+        <img src="images/logo-red.png" class="logo" alt="logo">
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Popular Places </a></li>
+            <li><a href="listing.html">Travel Outside </a></li>
+            <li><a href="house.html">Online Packages </a></li>
+        </ul>
+        <a href="#" class="register-btn">Register Now</a>
+        <i class="fa-solid fa-bars" onclick="Togglebtn()"></i>
+    </nav>
+
+    <div class="house-details">
+        <div class="house-title">
+            <h1>Wenge House</h1>
+            <div class="row">
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span>245 Reviews</span>
+                </div>
+                <div>
+                    <p>Location:Sun Francisco,California,united State</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-img1"> <img src="images/house-1.png" alt=""> </div>
+            <div> <img src="images/house-2.png" alt=""> </div>
+            <div> <img src="images/house-3.png" alt=""> </div>
+            <div> <img src="images/house-4.png" alt=""> </div>
+            <div> <img src="images/house-5.png" alt=""> </div>
+            <div> <img src="images/house-6.png" alt=""> </div>
+            <div> <img src="images/house-7.png" alt=""> </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <a href="https://facebook.com/"> <i class="fab fa-facebook"></i> </a>
+        <a href="https://youtube.com"> <i class="fab fa-youtube"></i> </a>
+        <a href="https://twitter.com"> <i class="fab fa-twitter"></i> </a>
+        <a href="https://linkedin.com"> <i class="fab fa-linkedin"></i> </a>
+        <a href="https://instagram.com"> <i class="fab fa-instagram"></i> </a>
+
+        <hr>
+        <p>Copyright 2025, TripTrail</p>
+    </div>
+    </div>
+
+
+    <script>
+        let navBar = document.getElementById("navBar");
+        function Togglebtn() {
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
+
+</body>
+
+</html>
